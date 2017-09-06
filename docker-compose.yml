@@ -1,0 +1,7 @@
+authenticator:
+  build: .
+  dockerfile: Dockerfile
+  environment:
+    - AWS_ACCESS_KEY_ID: MYAWSACCESSKEY
+    - AWS_SECRET_ACCESS_KEY: MYAWSSECRETKEY
+
